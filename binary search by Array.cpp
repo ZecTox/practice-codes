@@ -34,5 +34,7 @@ int main(){
     int key;
     cin >> key;
     
+    cout << binarySearch(arr,n,key) << endl;
+    
     return 0;
 }
